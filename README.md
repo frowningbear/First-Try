@@ -3,10 +3,6 @@ A simple test repo for learning purposes.
 Hello, my name is Tedwood. Fuchsia will be joining us soon.
 
 
-Useful WordPress Functions
-
-This is a list of useful WordPress functions that I often reference to enhance or clean up my sites. Please be careful and make backups.
-
 - [Section Title](#thelink)
 
 ## Hide WordPress Update Nag to All But Admins
@@ -35,17 +31,9 @@ Make sure to remove the `<title>` tag from your header.
 
 add_theme_support( 'title-tag' );
 ```
- here</p>
-    ';
-}
+A javascript code snippet
 
-function add_dashboard_widgets() {
-    wp_add_dashboard_widget( 'custom_dashboard_widget', 'Custom Dashoard Widget', 'dashboard_widget_function' );
-}
-add_action( 'wp_dashboard_setup', 'add_dashboard_widgets' );
-```
-
-```javascript
+```js
 
 function tedwood() {}
 
